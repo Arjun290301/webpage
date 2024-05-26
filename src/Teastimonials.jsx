@@ -1,21 +1,23 @@
 import React from 'react'
-
+import img1 from './../assets/img/testimonials-1.jpg'
+import img2 from './../assets/img/testimonials-2.jpg'
+import img3 from './../assets/img/testimonials-3.jpg'
 export const Teastimonials = () => {
     let data =[
         {
-            img:'assets/img/testimonials-1.jpg',
+            img:`${img1}`,
             name:'Margaret E.',
             comment:'This is fantastic! Thanks so much guys!'
 
         },
         {
-            img:'assets/img/testimonials-2.jpg',
+            img:`${img2}`,
             name:'Fred S.',
             comment:"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."
 
         },
         {
-            img:'assets/img/testimonials-3.jpg',
+            img:`${img3}`,
             name:'Sarah W.',
             comment:'Thanks so much for making these free resources available to us!'
 
